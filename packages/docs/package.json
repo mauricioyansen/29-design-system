@@ -8,8 +8,7 @@
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy-storybook2": "storybook-to-ghpages",
-    "deploy-storybook": "storybook-to-ghpages --ci --existing-output-dir=storybook-static --branch=gh-pages"
+    "deploy-storybook": "storybook-to-ghpages --ci --existing-output-dir=storybook-static --branch=gh-pages --git-remote-url=https://x-access-token:${GH_TOKEN}@github.com/mauricioyansen/29-design-system.git"
   },
   "dependencies": {
     "@ignite-ui/react": "*",
